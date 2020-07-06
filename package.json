@@ -1,0 +1,22 @@
+{
+  "name": "desktop-hotkeys-all",
+  "version": "1.0.0",
+  "description": "Multiplatform hotkey support",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"no test available\\\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EugeneP-Zello/desktop-hotkeys-all.git"
+  },
+  "keywords": [
+    "Hotkey"
+  ],
+  "author": "EugeneP-Zello",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EugeneP-Zello/desktop-hotkeys-all/issues"
+  },
+  "homepage": "https://github.com/EugeneP-Zello/desktop-hotkeys-all#readme"
+}
