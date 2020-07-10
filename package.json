@@ -4,7 +4,7 @@
   "description": "Multiplatform hotkey support",
   "main": "index.js",
   "scripts": {
-    "test": "echo \\\"no test available\\\""
+    "test": "echo \"no test available\""
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,22 @@
   "bugs": {
     "url": "https://github.com/EugeneP-Zello/desktop-hotkeys-all/issues"
   },
-  "homepage": "https://github.com/EugeneP-Zello/desktop-hotkeys-all#readme"
+  "iohook": {
+    "targets": [
+      "electron-75"
+    ],
+    "platforms": [
+      "darwin",
+      "linux"
+    ],
+    "arches": [
+      "x64",
+      "ia32"
+    ]
+  },
+  "homepage": "https://github.com/EugeneP-Zello/desktop-hotkeys-all#readme",
+  "dependencies": {
+    "desktop-hotkeys": "^1.0.3",
+    "iohook": "^0.6.6"
+  }
 }
